@@ -1,19 +1,18 @@
-# Mural Escolar Digital (MED)
+# Portal Futuro: Guia de Profissões e Carreiras
 
-## Problema:
-A comunicação interna na escola é descentralizada e ineficaz. Os avisos impressos colados nas paredes passam despercebidos pela maioria dos estudantes. Ao mesmo tempo, os grupos de WhatsApp das turmas sofrem com excesso de mensagens e conversas paralelas, fazendo com que prazos importantes de trabalhos, datas de provas e eventos do Grêmio Estudantil sejam completamente perdidos pelos alunos.
+## O Problema:
+Os estudantes do 3° ano do Ensino Médio enfrentam uma enorme pressão para escolher uma carreira profissional e se inscrever em vestibulares ou cursos técnicos. No entanto, a maioria não conhece a fundo o mercado de trabalho, o salário médio real, a rotina profissional ou as disciplinas estudadas em cada curso. Essa falta de informação centralizada e acessível gera ansiedade, escolhas erradas e posterior abandono do ensino superior.
 
-## Solução:
-O **Mural Escolar Digital (MED)** é uma plataforma web simplificada que funciona como um canal oficial e direto de informações da escola. O site centraliza os comunicados importantes de forma visual, organizada e de rápida leitura. 
+## A Solução:
+O **Portal Futuro** é uma plataforma web informativa e interativa projetada para funcionar como um guia de orientação profissional simplificado. O site centraliza informações cruciais sobre as principais carreiras do mercado de forma visual e direta.
 
-Diferente de um grupo de mensagens, o MED elimina o "barulho" das conversas paralelas, permitindo que o aluno encontre o que precisa em poucos cliques.
+A plataforma organiza as profissões por grandes áreas do conhecimento, permitindo que o estudante explore opções, entenda o mercado e tome uma decisão mais consciente e segura sobre o seu futuro.
 
 ## Público-Alvo:
-* **Alunos da instituição**: Que precisam consultar datas, eventos e avisos gerais de forma rápida.
-* **Líderes de turma e membros do Grêmio**: Que precisam divulgar comunicados oficiais para os estudantes.
-* **Professores e Coordenação**: Que desejam fixar lembretes de avaliações e prazos.
+* **Estudantes do Ensino Médio**: Principalmente do 3° ano, que buscam orientação para o vestibular e escolha de carreira.
+* **Orientadores Pedagógicos e Psicólogos**: Que podem utilizar a plataforma como ferramenta de apoio em dinâmicas de orientação vocacional na escola.
 
 ## Tecnologias Planejadas:
-* HTML5
-* CSS3 (com foco em design responsivo)
-* JavaScript (para filtragem dinâmica dos avisos)
+* HTML5 (Estruturação semântica do conteúdo)
+* CSS3 (Layout moderno, cards visuais e responsividade)
+* JavaScript (Filtragem dinâmica de carreiras por área do conhecimento)
