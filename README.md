@@ -13,7 +13,7 @@ Diferente de um grupo de mensagens, o MED elimina o "barulho" das conversas para
 * **Líderes de turma e membros do Grêmio**: Que precisam divulgar comunicados oficiais para os estudantes.
 * **Professores e Coordenação**: Que desejam fixar lembretes de avaliações e prazos.
 
-## 🛠️ Tecnologias Planejadas
+## Tecnologias Planejadas
 * HTML5
 * CSS3 (com foco em design responsivo)
 * JavaScript (para filtragem dinâmica dos avisos)
