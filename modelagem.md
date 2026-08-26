@@ -36,3 +36,4 @@ classDiagram
         +string linkTesteExterno
     }
 ```
+-- **Link para o Trello:** https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia
