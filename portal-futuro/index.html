@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal Futuro: guia de profissões e carreiras para estudantes do Ensino Médio. Explore áreas, pesquise profissões e conheça cursos, atuação e faixas salariais.">
+  <title>Portal Futuro — Guia de Profissões e Carreiras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Atalho para quem navega por teclado ou leitor de tela -->
+  <a class="pular-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+  <header class="cabecalho">
+    <div class="container cabecalho__interno">
+      <a class="marca" href="#inicio">
+        <span class="marca__simbolo" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"></circle>
+            <polygon points="15.5 8.5 10.5 10.5 8.5 15.5 13.5 13.5 15.5 8.5"></polygon>
+          </svg>
+        </span>
+        <span class="marca__texto">
+          <strong>Portal Futuro</strong>
+          <small>Guia de profissões e carreiras</small>
+        </span>
+      </a>
+
+      <nav class="navegacao" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#explorar">Explorar profissões</a></li>
+          <li><a href="#sobre">Sobre o projeto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio">
+      <div class="container hero__interno">
+        <div class="hero__texto">
+          <p class="hero__chamada">Orientação profissional para quem está no 3º ano</p>
+          <h1 class="hero__titulo">Escolher uma carreira fica mais fácil quando você sabe o que ela é de verdade.</h1>
+          <p class="hero__descricao">
+            O Portal Futuro reúne, em um só lugar, informações sobre profissões de
+            Tecnologia, Saúde, Humanas e Engenharia: o que se estuda no curso, onde
+            se trabalha, quanto tempo dura a formação e o que esperar do mercado.
+            Explore com calma, compare caminhos e converse com seu orientador antes de decidir.
+          </p>
+          <div class="hero__acoes">
+            <a class="botao botao--primario" href="#explorar">Explorar profissões</a>
+            <a class="botao botao--secundario" href="#sobre">Como usar o portal</a>
+          </div>
+        </div>
+
+        <aside class="hero__painel" aria-label="Resumo do conteúdo do portal">
+          <p class="painel__titulo">O que você encontra aqui</p>
+          <ul class="painel__lista">
+            <li><span class="painel__numero" id="hero-total">—</span> profissões catalogadas</li>
+            <li><span class="painel__numero">4</span> grandes áreas do conhecimento</li>
+            <li><span class="painel__numero">3</span> testes vocacionais gratuitos indicados</li>
+          </ul>
+          <p class="painel__aviso">
+            As informações são orientativas e servem como ponto de partida para a pesquisa.
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= EXPLORAÇÃO ================= -->
+    <section class="exploracao" id="explorar">
+      <div class="container">
+        <h2 class="secao__titulo">Explore as profissões</h2>
+        <p class="secao__apoio">Use a busca e os filtros por área. Os dois funcionam juntos.</p>
+
+        <div class="controles">
+          <div class="campo-busca">
+            <label class="campo-busca__rotulo" for="campo-pesquisa">Pesquisar profissão</label>
+            <div class="campo-busca__caixa">
+              <svg class="campo-busca__icone" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+              </svg>
+              <input
+                type="search"
+                id="campo-pesquisa"
+                name="campo-pesquisa"
+                placeholder="Ex.: enfermagem, dados, civil…"
+                autocomplete="off"
+                aria-describedby="dica-pesquisa">
+            </div>
+            <p class="campo-busca__dica" id="dica-pesquisa">A busca considera o nome, a área e a descrição da profissão.</p>
+          </div>
+
+          <div class="filtros">
+            <h3 class="filtros__titulo" id="rotulo-filtros">Filtrar por área</h3>
+            <div class="filtros__grupo" id="filtros-area" role="group" aria-labelledby="rotulo-filtros">
+              <!-- Os botões de área são criados pelo JavaScript -->
+            </div>
+          </div>
+        </div>
+
+        <div class="resultado-barra">
+          <p class="resultado-contador" id="contador-resultados" role="status" aria-live="polite">Carregando profissões…</p>
+          <button type="button" class="botao botao--texto" id="botao-limpar">Limpar busca e filtros</button>
+        </div>
+
+        <div class="grade-cards" id="lista-profissoes">
+          <!-- Os cards são criados pelo JavaScript -->
+        </div>
+
+        <p class="sem-resultado" id="mensagem-vazia" hidden>
+          Nenhuma profissão encontrada com esses critérios. Tente outra palavra
+          ou selecione a área <strong>Todas</strong> para ver o catálogo completo.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= DETALHES ================= -->
+    <section class="detalhes" id="detalhes" aria-labelledby="detalhes-titulo" hidden tabindex="-1">
+      <div class="container detalhes__interno">
+        <button type="button" class="botao botao--voltar" id="botao-voltar">
+          <span aria-hidden="true">&larr;</span> Voltar para a lista
+        </button>
+
+        <p class="detalhes__area" id="detalhes-area"></p>
+        <h2 class="detalhes__titulo" id="detalhes-titulo"></h2>
+        <p class="detalhes__resumo" id="detalhes-resumo"></p>
+
+        <div class="detalhes__numeros">
+          <div class="numero-cartao">
+            <p class="numero-cartao__rotulo">Formação</p>
+            <p class="numero-cartao__valor" id="detalhes-formacao"></p>
+          </div>
+          <div class="numero-cartao">
+            <p class="numero-cartao__rotulo">Duração do curso</p>
+            <p class="numero-cartao__valor" id="detalhes-duracao"></p>
+          </div>
+          <div class="numero-cartao">
+            <p class="numero-cartao__rotulo">Faixa salarial estimada</p>
+            <p class="numero-cartao__valor" id="detalhes-salario"></p>
+          </div>
+        </div>
+
+        <div class="detalhes__blocos">
+          <article class="bloco">
+            <h3>O que se estuda no curso</h3>
+            <p id="detalhes-curso"></p>
+          </article>
+
+          <article class="bloco">
+            <h3>Onde se trabalha</h3>
+            <ul id="detalhes-atuacao"></ul>
+          </article>
+
+          <article class="bloco">
+            <h3>Habilidades que ajudam</h3>
+            <ul id="detalhes-habilidades"></ul>
+          </article>
+
+          <article class="bloco">
+            <h3>Mercado de trabalho</h3>
+            <p id="detalhes-mercado"></p>
+          </article>
+        </div>
+
+        <div class="detalhes__teste">
+          <h3>Ainda em dúvida?</h3>
+          <p>Faça um teste vocacional gratuito. O resultado é um ponto de partida, não uma decisão final.</p>
+          <a class="botao botao--primario" id="detalhes-link-teste" href="#" target="_blank" rel="noopener noreferrer">Fazer teste vocacional gratuito</a>
+        </div>
+
+        <p class="detalhes__fontes" id="detalhes-fontes"></p>
+      </div>
+    </section>
+
+    <!-- ================= SOBRE ================= -->
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <h2 class="secao__titulo">Sobre o projeto</h2>
+        <div class="sobre__grade">
+          <article>
+            <h3>Por que ele existe</h3>
+            <p>
+              No 3º ano, a escolha da carreira chega junto com vestibulares, Enem e
+              prazos de inscrição. Muita gente decide sem conhecer a rotina da
+              profissão, o conteúdo do curso ou o mercado. O Portal Futuro organiza
+              essas informações em um formato simples de consultar.
+            </p>
+          </article>
+          <article>
+            <h3>Como usar</h3>
+            <p>
+              Comece pelo filtro da área que mais combina com você, leia os cards e
+              abra os detalhes das profissões que chamarem sua atenção. Se já tem um
+              nome em mente, use a busca. Anote as dúvidas e leve para o orientador
+              pedagógico da escola.
+            </p>
+          </article>
+          <article>
+            <h3>Sobre as informações</h3>
+            <p>
+              As faixas salariais são estimativas ilustrativas, em reais, para o
+              Brasil, e variam muito conforme região, porte da empresa, jornada e
+              experiência. Confirme sempre em fontes oficiais antes de usar esses
+              números em uma decisão ou trabalho escolar.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__interno">
+      <div class="rodape__bloco">
+        <p class="rodape__marca">Portal Futuro</p>
+        <p>
+          Projeto Integrador II — Curso Técnico em Informática integrado ao Ensino Médio.
+          Produto educacional, sem fins comerciais.
+        </p>
+      </div>
+
+      <div class="rodape__bloco">
+        <h2 class="rodape__titulo">Tecnologias</h2>
+        <p>HTML5, CSS3 e JavaScript puro. Hospedagem no GitHub Pages.</p>
+      </div>
+
+      <div class="rodape__bloco">
+        <h2 class="rodape__titulo">Equipe</h2>
+        <!-- Aluna e professor responsável. -->
+        <p>Aluna: Flávia Mariana</p>
+        <p>Professor orientador: Clécio Sousa</p>
+      </div>
+
+      <p class="rodape__aviso">
+        As informações sobre profissões, cursos e remuneração são orientativas e
+        devem ser confirmadas em fontes oficiais, como instituições de ensino,
+        conselhos profissionais e pesquisas do mercado de trabalho.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
