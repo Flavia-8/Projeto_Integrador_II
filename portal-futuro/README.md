@@ -177,7 +177,8 @@ Melhorias possíveis:
 
 ## 16. Gestão do projeto
 
-- Quadro Trello: https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia  *https://trello.com/invite/b/6a8f414c93f0cca9ce949f3b/ATTI529684bf48959f10dd5b1c7baf52f8da15062DAA/trello-portal-futuro-flavia   talvez seja esse link*
+- Quadro Trello: https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia
+   *https://trello.com/invite/b/6a8f414c93f0cca9ce949f3b/ATTI529684bf48959f10dd5b1c7baf52f8da15062DAA/trello**-portal-futuro-flavia   talvez seja esse link*
 - Repositório GitHub: **[preencher com a URL do repositório da equipe]**
 
 ---
