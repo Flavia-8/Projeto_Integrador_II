@@ -12,7 +12,7 @@ O Portal Futuro reúne, em um único site, informações sobre profissões de qu
 
 A finalidade é educacional: organizar informações dispersas para apoiar a pesquisa do estudante, sem substituir a orientação profissional feita por psicólogos e orientadores pedagógicos.
 
-## 2. Problema (definido na Etapa 1)
+## 2. Problema
 
 Os estudantes do 3º ano do Ensino Médio enfrentam pressão para escolher uma carreira profissional e se inscrever em vestibulares ou cursos técnicos. Muitos não conhecem suficientemente o mercado de trabalho, a remuneração, a rotina profissional ou as disciplinas estudadas em cada curso.
 
@@ -171,14 +171,13 @@ Melhorias possíveis:
 
 *Preencher com os dados reais antes da entrega.*
 
-- Integrantes: **[preencher]**
-- Turma: **[preencher]**
-- Professor(a) orientador(a): **[preencher]**
-- Instituição: **[preencher]**
+- Integrantes: **Flávia Mariana**
+- Turma: **3 ano "B"**
+- Professor orientador: **Clécio Sousa**
 
 ## 16. Gestão do projeto
 
-- Quadro Trello: https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia
+- Quadro Trello: https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia  *https://trello.com/invite/b/6a8f414c93f0cca9ce949f3b/ATTI529684bf48959f10dd5b1c7baf52f8da15062DAA/trello-portal-futuro-flavia   talvez seja esse link*
 - Repositório GitHub: **[preencher com a URL do repositório da equipe]**
 
 ---
