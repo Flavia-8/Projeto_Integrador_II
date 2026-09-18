@@ -80,7 +80,7 @@ Não há bibliotecas externas, backend ou banco de dados. O ícone do cabeçalho
 ## 9. Estrutura de pastas
 
 ```text
-portal-futuro/
+Projeto_Integrador_II/
 │
 ├── index.html        Estrutura da página: cabeçalho, hero, exploração, detalhes, sobre e rodapé
 ├── style.css         Estilos, variáveis de cor, componentes e regras de responsividade
@@ -99,10 +99,9 @@ O `index.html` referencia `style.css` e `script.js` por caminhos relativos, sem 
 
 1. Baixe o repositório (botão **Code → Download ZIP**) ou clone-o:
    ```bash
-   git clone https://github.com/USUARIO/portal-futuro.git
+   git clone https://github.com/flavia-8/Projeto_Integrador_II.git
    ```
-   *(substitua `USUARIO` pelo nome de usuário real do GitHub da equipe)*
-2. Abra a pasta `portal-futuro`.
+2. Abra a pasta `Projeto_Integrador_II`.
 3. Dê um duplo clique em `index.html`. O projeto é estático e funciona direto do arquivo, sem servidor.
 4. Opcional: para simular um servidor local, use a extensão **Live Server** do VS Code ou execute, dentro da pasta do projeto:
    ```bash
@@ -113,22 +112,22 @@ O `index.html` referencia `style.css` e `script.js` por caminhos relativos, sem 
 
 ## 11. Como publicar no GitHub Pages
 
-1. Crie um repositório público no GitHub (por exemplo, `portal-futuro`).
+1. Crie um repositório público no GitHub (por exemplo, `Projeto-Integrador-II`).
 2. Envie os arquivos mantendo `index.html` na **raiz** do repositório:
    ```bash
    git init
    git add .
    git commit -m "Etapa 3: produto funcional do Portal Futuro"
    git branch -M main
-   git remote add origin https://github.com/USUARIO/portal-futuro.git
+   git remote add origin https://github.com/flavia-8/Projeto_Integrador_II.git
    git push -u origin main
    ```
 3. No repositório, abra **Settings → Pages**.
 4. Em **Source**, escolha **Deploy from a branch**; em **Branch**, selecione `main` e a pasta `/ (root)`. Salve.
-5. Aguarde alguns minutos. O endereço publicado aparece na própria tela de Pages, no formato `https://USUARIO.github.io/portal-futuro/`.
+5. Aguarde alguns minutos. O endereço publicado aparece na própria tela de Pages, no formato `https://flavia-8.github.io/Projeto_Integrador_II/`.
 6. Registre a URL real aqui depois da publicação:
 
-   **URL publicada:** *[preencher após a publicação]*
+   **URL publicada:** *https://flavia-8.github.io/Projeto_Integrador_II*
 
 ## 12. Testes e validação
 
@@ -136,7 +135,7 @@ As funcionalidades foram validadas com uma bateria de 48 verificações automati
 
 Resultado: **48 verificações aprovadas, nenhuma reprovada**.
 
-O relatório completo, incluindo os testes que ainda devem ser executados manualmente pela equipe, está em [`docs/testes.md`](docs/testes.md).
+O relatório completo, incluindo os testes que ainda devem ser executados manualmente, está em [`docs/testes.md`](docs/testes.md).
 
 ## 13. Resultados finais
 
@@ -166,20 +165,19 @@ Melhorias possíveis:
 - Permitir favoritar e comparar carreiras.
 - Adicionar imagens ilustrativas com texto alternativo descritivo.
 - Publicar um formulário para sugestões de novas profissões.
+- 
 
-## 15. Equipe
+## 15. Aluna e professor responsáveis:
 
-*Preencher com os dados reais antes da entrega.*
-
-- Integrantes: **[preencher]**
-- Turma: **[preencher]**
-- Professor(a) orientador(a): **[preencher]**
-- Instituição: **[preencher]**
+- Aluna: **Flávia Mariana**
+- Turma: **3 ano "B"**
+- Professor orientador: **Clécio Sousa**
+- Instituição: **Colégio Técnico de Bom Jesus**
 
 ## 16. Gestão do projeto
 
 - Quadro Trello: https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia
-- Repositório GitHub: **[preencher com a URL do repositório da equipe]**
+- Repositório GitHub: **https://flavia-8.github.io/Projeto_Integrador_II**
 
 ---
 
