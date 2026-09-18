@@ -177,7 +177,8 @@ Melhorias possíveis:
 ## 16. Gestão do projeto
 
 - Quadro Trello: https://trello.com/b/7JY2MqC5/trello-portal-futuro-flavia
-- Repositório GitHub: **https://flavia-8.github.io/Projeto_Integrador_II**
+- Repositório GitHub: ** https://github.com/flavia-8/Projeto_Integrador_II
+- **Site publicado:** https://flavia-8.github.io/Projeto_Integrador_II/**
 
 ---
 
