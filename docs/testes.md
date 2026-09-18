@@ -15,7 +15,7 @@ Verificar se o Portal Futuro atende aos requisitos funcionais (RF-001 a RF-006) 
 | Data da execução | Antes da entrega da Etapa 3 |
 | Escopo | Código estático do projeto (HTML, CSS e JavaScript), sem acesso à internet |
 
-**Transparência sobre o método:** os testes das seções 4 e 5 foram **efetivamente executados** em navegador, de forma automatizada, e os resultados abaixo são os retornos reais do script. Os testes da seção 8 **não foram executados** e estão listados como recomendação para a equipe, porque dependem de aparelhos físicos, leitores de tela ou acesso à internet, indisponíveis no ambiente de automação.
+**Transparência sobre o método:** os testes das seções 4 e 5 foram **efetivamente executados** em navegador, de forma automatizada, e os resultados abaixo são os retornos reais do script. Os testes da seção 8 **não foram executados** e estão listados como recomendação, porque dependem de aparelhos físicos, leitores de tela ou acesso à internet, indisponíveis no ambiente de automação.
 
 ## 3. Funcionalidades testadas
 
@@ -83,9 +83,9 @@ Foi escrito um script de automação que abre o `index.html` em um navegador rea
 - Não houve teste em aparelhos físicos; a responsividade foi verificada por redimensionamento de janela.
 - O contraste de cores foi escolhido com base em cores escuras sobre fundo claro, mas não passou por um verificador automático de contraste WCAG.
 
-## 8. Testes recomendados para a equipe executar
+## 8. Testes recomendados para executar
 
-Estes testes ainda **não foram realizados** e devem ser feitos pelos alunos antes da apresentação, registrando prints como evidência:
+Estes testes ainda **não foram realizados** e devem ser feitos antes da apresentação, registrando prints como evidência:
 
 1. Abrir o site em Chrome, Firefox, Edge e Safari.
 2. Abrir o site em um celular e em um tablet reais, na vertical e na horizontal.
@@ -100,4 +100,4 @@ Estes testes ainda **não foram realizados** e devem ser feitos pelos alunos ant
 
 Todas as 48 verificações automatizadas foram aprovadas, sem erros no console e sem rolagem horizontal nas três larguras testadas. Os requisitos funcionais RF-001 a RF-006 e os não funcionais RNF-001 a RNF-005 estão atendidos no escopo verificável neste ambiente.
 
-O produto é considerado **apto para a entrega da Etapa 3 e para a publicação no GitHub Pages**, condicionado à execução, pela equipe, dos testes complementares listados na seção 8, especialmente a conferência dos links externos e o teste em aparelhos reais.
+O produto é considerado **apto para a entrega da Etapa 3 e para a publicação no GitHub Pages**, condicionado à execução dos testes complementares listados na seção 8, especialmente a conferência dos links externos e o teste em aparelhos reais.
